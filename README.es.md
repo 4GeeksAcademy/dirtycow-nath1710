@@ -14,16 +14,11 @@
 
 <!-- endhide -->
 
-
-<onlyfor saas="false" withBanner="false">
-
 ## 🌱 ¿Cómo empezar este proyecto?
 
 Este ejercicio tiene como objetivo consolidar todo lo aprendido en los tres ejercicios anteriores de pentesting para proponer medidas de mitigación y prevención de los ataques detectados. El objetivo es desarrollar un informe que detalle las vulnerabilidades identificadas, las técnicas de explotación utilizadas y las recomendaciones para prevenir futuros exploits.
 
 Este ultimo proyecto no solo reflejará tu competencia en pentesting, sino también tu compromiso con la seguridad continua y la mejora de los sistemas.
-
-</onlyfor>
 
 ## 📝 Instrucciones
 
