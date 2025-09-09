@@ -1,5 +1,5 @@
-# Pentesting Prevention Proposal Project 
 <!-- hide -->
+# Pentesting Prevention Proposal Project 
 
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/pentesting-report-prevention-proposal-project/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
@@ -13,12 +13,12 @@
 > We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
 <!-- endhide -->
 
-
 # 🌱 How to Start This Project
 
 This exercise aims to consolidate everything learned in the previous three pentesting exercises by proposing mitigation and prevention measures for the detected attacks. The goal is to develop a report that details the identified vulnerabilities, the exploitation techniques used, and the recommendations for preventing future exploits.
 
 This final project will not only reflect your competence in pentesting but also your commitment to continuous security and system improvement.
+
 
 ## 📝 Instructions
 
@@ -62,7 +62,6 @@ Let's start! 🤓
   - **Mitigation Analysis**: Assessment of the effectiveness of the recommended mitigation measures.
   - **Potential Impact**: Reflection on the impact these measures could have on the overall security of the system.
   - **Conclusion**: Final reflection on the importance of prevention and continuous security.
-
 
 
 ## 🚛 How to deliver this project?

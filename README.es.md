@@ -1,5 +1,6 @@
-# Proyecto de Propuesta de Prevención en Pentesting
 <!-- hide -->
+# Proyecto de Propuesta de Prevención en Pentesting
+
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/pentesting-report-prevention-proposal-project/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
@@ -13,14 +14,11 @@
 
 <!-- endhide -->
 
-
 ## 🌱 ¿Cómo empezar este proyecto?
-
 
 Este ejercicio tiene como objetivo consolidar todo lo aprendido en los tres ejercicios anteriores de pentesting para proponer medidas de mitigación y prevención de los ataques detectados. El objetivo es desarrollar un informe que detalle las vulnerabilidades identificadas, las técnicas de explotación utilizadas y las recomendaciones para prevenir futuros exploits.
 
 Este ultimo proyecto no solo reflejará tu competencia en pentesting, sino también tu compromiso con la seguridad continua y la mejora de los sistemas.
-
 
 ## 📝 Instrucciones
 
