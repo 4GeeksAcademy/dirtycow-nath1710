@@ -33,40 +33,40 @@ Un nuevo repositorio se creará en tu cuenta.
 
 ¡Comencemos! 🤓
 
-- [ ] **Revisa los informes anteriores**: Asegúrate de tener claros los hallazgos de los informes de pentesting anteriores (v1 y v2).
-- [ ] **Informe v1**: Revisión de vulnerabilidades detectadas durante la fase de reconocimiento.
-- [ ] **Informe v2**: Documentación de la explotación de vulnerabilidades y escalación de privilegios en ambos escenarios: la máquina vulnerable y el sitio web vulnerable.
-- [ ] **Analiza cada vulnerabilidad** detectada y explotada en los informes anteriores.
-- [ ] **Propón medidas de prevención**: Desarrolla estrategias que puedan evitar que las vulnerabilidades sean introducidas en el sistema.
-  - **Ejemplos**:
-    - Desarrollo Seguro: Implementación de prácticas seguras de codificación.
-    - Revisión de Código: Establecer un proceso de revisión de código para detectar fallos antes de que lleguen a producción.
-    - Políticas de Seguridad: Establecimiento de políticas para evitar la exposición innecesaria de servicios o información sensible.
-- [ ] **Identifica medidas de mitigación** para vulnerabilidades que ya están presentes en el sistema.
-- [ ] **Desarrolla soluciones prácticas** que puedan aplicarse para reducir el impacto de las vulnerabilidades.
-  - **Ejemplos**:
-    - Parches de Seguridad: Aplicación de actualizaciones y parches que corrijan vulnerabilidades.
-    - Configuración de Seguridad: Modificación de configuraciones inseguras en servidores, aplicaciones, y redes.
-    - Segmentación de Red: Aislar servicios críticos para limitar el impacto de un posible ataque.
+- [ ] **Revisa tus informes previos**: asegúrate de tener claros los hallazgos de las fases de reconocimiento (Fase 1 y 2) y explotación (Fase 3).  
+- [ ] **Documento de vulnerabilidades**: enumera todas las vulnerabilidades detectadas y explotadas en *The Lovers*.  
+- [ ] **Incluye flags**: las flags encontradas deben estar presentes en el informe como evidencia, con su contexto y ubicación.  
+- [ ] **Analiza cada vulnerabilidad**: explica cómo fue descubierta y qué impacto tiene.  
+- [ ] **Propón medidas de prevención**: estrategias que eviten que estas vulnerabilidades sean introducidas en el futuro.  
+  - **Ejemplos**:  
+    - Desarrollo seguro (input sanitization, validaciones).  
+    - Políticas de contraseñas robustas.  
+    - Revisión de código y auditorías periódicas.  
+- [ ] **Define medidas de mitigación**: soluciones aplicables para reducir el impacto de vulnerabilidades ya existentes.  
+  - **Ejemplos**:  
+    - Aplicación de parches de seguridad.  
+    - Configuraciones seguras en servicios (Apache, SSH, MySQL).  
+    - Segmentación de red y control de accesos.  
 
-### Redacción del Informe Final
 
-- [ ] **Elabora un informe estructurado** que incluya:
-  - **Índice**: Una guía clara de las secciones y subsecciones del informe.
-  - **Introducción**: Resumen de los objetivos y el alcance del ejercicio. Explica brevemente el objetivo del pentesting realizado (identificación de vulnerabilidades, cumplimiento de normativas, etc.). Describe tambien el alcance general, incluyendo las áreas y sistemas evaluados.
-  - **Enfoque y Estrategia:** Describe la metodología general, pero asegúrate de destacar las diferencias entre el enfoque usado para la máquina y para el sitio web.
-  - **Fases del Pentesting:** Detalla las fases tanto para la máquina como para el sitio web, indicando las herramientas y técnicas específicas usadas para cada uno.Por ejemplo, podrías haber utilizado Nmap, Metasploit para la máquina.
-  - **Vulnerabilidades Detectadas**: Lista de todas las vulnerabilidades explotadas en ejercicios anteriores.
-  - **Propuesta de Prevención**: Estrategias sugeridas para prevenir la introducción de nuevas vulnerabilidades.
-  - **Propuesta de Mitigación**: Detalles de las soluciones recomendadas para mitigar las vulnerabilidades existentes.
-  - **Análisis de Mitigación**: Evaluación de la efectividad de las medidas de mitigación recomendadas.
-  - **Impacto Potencial**: Reflexión sobre el impacto que estas medidas podrían tener en la seguridad general del sistema.
-  - **Conclusión**: Reflexión final sobre la importancia de la prevención y la seguridad continua.
+### Redacción del Informe Final  
+
+- [ ] **Índice**: guía clara de secciones y subsecciones.  
+- [ ] **Introducción**: resume el objetivo y alcance del pentest en *The Lovers*.  
+- [ ] **Metodología**: describe las fases ejecutadas y las herramientas principales usadas.  
+- [ ] **Fases del pentesting**: explica brevemente qué se hizo en Reconocimiento, Enumeración y Explotación.  
+- [ ] **Vulnerabilidades detectadas**: lista detallada con evidencia.  
+- [ ] **Flags**: evidencia de cada flag encontrada.  
+- [ ] **Propuesta de prevención**: estrategias para reducir riesgos futuros.  
+- [ ] **Propuesta de mitigación**: soluciones prácticas para corregir lo encontrado.  
+- [ ] **Impacto potencial**: reflexión sobre el impacto de las medidas en la seguridad del sistema.  
+- [ ] **Conclusión**: reflexiona sobre la importancia de la seguridad continua.  
+
 
 
 ## 🚛 ¿Cómo entregar este proyecto?
 
-- En la raíz del proyecto bifurcado, cargue el informe en formato `.pdf` con el nombre `petesting-report.pdf`. Se considerará una ventaja incluir enlaces a herramientas y recursos adicionales utilizados en el análisis. Asegúrate de incluir capturas de pantalla, descripciones detalladas y cualquier otro recurso que respalde tus propuestas. 
+- En la raíz del proyecto bifurcado, cargue el informe en formato `.pdf` con el nombre `petesting-report.pdf`. Asegúrate de incluir capturas de pantalla, descripciones detalladas y cualquier otro recurso que respalde tus propuestas. 
 
 > 💡 Se considerará una ventaja incluir enlaces a herramientas y recursos adicionales utilizados en el análisis.
 

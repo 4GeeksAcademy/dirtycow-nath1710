@@ -33,40 +33,39 @@ A new repository will be created in your account.
 
 Let's start! 🤓
 
-- [ ] **Review previous reports**: Ensure you have a clear understanding of the findings from the previous pentesting reports (v1 and v2).
-  - **Report v1**: Review the vulnerabilities detected during the reconnaissance phase.
-  - **Report v2**: Document the exploitation of vulnerabilities and privilege escalation in both scenarios: the vulnerable machine and the vulnerable website.
-- [ ] **Analyze each vulnerability** detected and exploited in the previous reports.
-- [ ] **Propose prevention measures**: Develop strategies to prevent the introduction of these vulnerabilities into the system.
+- [ ] **Review your previous reports**: Make sure you clearly understand the findings from the reconnaissance (Phases 1 and 2) and exploitation (Phase 3) stages.
+- [ ] **Vulnerability documentation**: List all vulnerabilities detected and exploited in *The Lovers*.
+- [ ] **Include flags**: All flags found must be present in the report as evidence, with their context and location.
+- [ ] **Analyze each vulnerability**: Explain how it was discovered and its impact.
+- [ ] **Propose prevention measures**: Strategies to prevent these vulnerabilities from being introduced in the future.
   - **Examples**:
-    - Secure Development: Implement secure coding practices.
-    - Code Review: Establish a code review process to detect flaws before they reach production.
-    - Security Policies: Establish policies to avoid unnecessary exposure of services or sensitive information.
-- [ ] **Identify mitigation measures** for vulnerabilities that are already present in the system.
-- [ ] **Develop practical solutions** that can be applied to reduce the impact of the vulnerabilities.
+    - Secure development (input sanitization, validations).
+    - Strong password policies.
+    - Code review and regular audits.
+- [ ] **Define mitigation measures**: Solutions to reduce the impact of existing vulnerabilities.
   - **Examples**:
-    - Security Patches: Apply updates and patches that address vulnerabilities.
-    - Security Configuration: Modify insecure configurations on servers, applications, and networks.
-    - Network Segmentation: Isolate critical services to limit the impact of a potential attack.
+    - Applying security patches.
+    - Secure configurations for services (Apache, SSH, MySQL).
+    - Network segmentation and access control.
+
+
 
 ### Final Report Writing
 
-- [ ] **Prepare a structured report** that includes:
-  - **Table of Contents**: A clear guide to the sections and subsections of the report.
-  - **Introduction**: Summary of the objectives and scope of the exercise. Briefly explain the goal of the pentesting conducted (identification of vulnerabilities, regulatory compliance, etc.). Also, describe the general scope, including the areas and systems evaluated.
-  - **Approach and Strategy**: Describe the general methodology, but be sure to highlight the differences between the approach used for the machine and the website.
-  - **Phases of Pentesting**: Detail the phases for both the machine and the website, indicating the specific tools and techniques used for each. For example, you might have used Nmap, Metasploit for the machine.
-  - **Detected Vulnerabilities**: A list of all the vulnerabilities exploited in previous exercises.
-  - **Prevention Proposal**: Suggested strategies to prevent the introduction of new vulnerabilities.
-  - **Mitigation Proposal**: Details of the recommended solutions to mitigate existing vulnerabilities.
-  - **Mitigation Analysis**: Assessment of the effectiveness of the recommended mitigation measures.
-  - **Potential Impact**: Reflection on the impact these measures could have on the overall security of the system.
-  - **Conclusion**: Final reflection on the importance of prevention and continuous security.
+- [ ] **Table of contents**: Clear guide to sections and subsections.
+- [ ] **Introduction**: Summarize the objective and scope of the pentest in *The Lovers*.
+- [ ] **Methodology**: Describe the phases carried out and the main tools used.
+- [ ] **Pentesting phases**: Briefly explain what was done in Reconnaissance, Enumeration, and Exploitation.
+- [ ] **Detected vulnerabilities**: Detailed list with evidence.
+- [ ] **Flags**: Evidence of each flag found.
+- [ ] **Prevention proposal**: Strategies to reduce future risks.
+- [ ] **Mitigation proposal**: Practical solutions to correct the findings.
+- [ ] **Potential impact**: Reflection on the impact of the measures on system security.
+- [ ] **Conclusion**: Reflect on the importance of continuous security.
 
+## 🚛 How to submit this project?
 
-## 🚛 How to deliver this project?
-
-- At the root of the forked project, upload the report in `.pdf` format with the name `pentesting-report.pdf`. Including links to tools and additional resources used in the analysis will be considered a plus. Make sure to include screenshots, detailed descriptions, and any other resources that support your proposals.
+- In the root of the forked project, upload the report in `.pdf` format named `pentesting-report.pdf`. Make sure to include screenshots, detailed descriptions, and any other resources that support your proposals.
 
 > 💡 Including links to tools and additional resources used in the analysis will be considered a plus.
 
